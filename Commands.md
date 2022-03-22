@@ -17,3 +17,6 @@ cd: Nos permite navegar entre carpetas.
 history: Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
 ! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
 clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
+
+
+Git rm "archivo" // borra archivo añadido a stage con add
