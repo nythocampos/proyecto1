@@ -18,5 +18,15 @@ history: Ver los últimos comandos que ejecutamos y un número especial con el q
 ! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
 clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
 
+Si por algún motivo te equivocaste en el nombre o email que configuraste al principio, lo puedes modificar de la siguiente manera:
+git config --global --replace-all user.name “Aquí va tu nombre modificado”
+O si lo deseas eliminar y añadir uno nuevo
+git config --global --unset-all user.name :Elimina el nombre del usuario
+git config --global --add user.name “Aquí va tu nombre”
 
-Git rm "archivo" // borra archivo añadido a stage con add
+
+git rm "archivo" // borra archivo añadido a stage con add
+
+git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
+
+git log "archivo cambiado"
