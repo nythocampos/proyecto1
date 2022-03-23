@@ -33,3 +33,4 @@ git log "archivo cambiado"
 
 git show "archivo a revisar" // para ver los cambios hechos en un archivos
 
+git diff "commit viejo" "commit nuevo" // para comparar diferencias entre commits
