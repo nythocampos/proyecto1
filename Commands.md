@@ -30,3 +30,6 @@ git rm "archivo" // borra archivo añadido a stage con add
 git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
 
 git log "archivo cambiado"
+
+git show "archivo a revisar" // para ver los cambios hechos en un archivos
+
