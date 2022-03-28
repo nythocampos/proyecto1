@@ -44,3 +44,10 @@ body .container .post{
     width: 20px;
     vertical-align: middle;
 }
+
+footer {
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
