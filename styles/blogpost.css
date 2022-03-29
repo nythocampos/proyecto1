@@ -45,6 +45,16 @@ body .container .post{
     vertical-align: middle;
 }
 
+.post .image{
+    display: flex;
+}
+
+.post .image img{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
 footer {
     background: #777;
     color: white;
