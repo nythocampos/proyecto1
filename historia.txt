@@ -6,6 +6,6 @@ punto 2 v2
 
 punto 3 checkout // punto 3 v2 borrado
 
-Main 1
+Experimento 1
 
-Main 2
+Experimento 2
